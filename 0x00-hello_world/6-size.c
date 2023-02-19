@@ -1,25 +1,24 @@
 #include <stdio.h>
 
 /**
-  * main - Entry pont
-  *
-  *Return: Always is 0 (success)
-  */
-
+ * main - Prints the size of various types based on
+ *
+ *
+ * Return: Always 0 (success)
+ */
 int main(void)
 {
-	char joy;
-	int me;
-	long int we;
-	long long int be;
-	float cool;
+	char a;
+	int  b;
+	long int c;
+	long long int d;
+	float e;
 
-	prinf("Size of a char: %zu byte(s)\n", sizeof(joy));
-	printf("Size of an int: %zu byte(s)\n", sizeof(me));
-	printf("Size of a long int: %zu byte(s)\n", sizeof(we));
-	printf("Size of a long long int: %zu byte(S)\n", sizeof(be));
-	printf("Size of a float: %zu byte(s)\n", sizeof(cool));
+	printf("Size of a char: %zu byte(s)\n", sizeof(a));
+	printf("Size of an int: %zu byte(s)\n", sizeof(b));
+	printf("Size of a long int: %zu byte(s)\n", sizeof(c));
+	printf("Size of a long long int: %zu byte(s)\n", sizeof(d));
+	printf("Size of a float: %zu byte(s)\n", sizeof(e));
 
 	return (0);
 }
-
