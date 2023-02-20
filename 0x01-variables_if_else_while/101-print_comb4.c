@@ -12,11 +12,11 @@ int main(void)
 {
 	int cillvy1, cillvy2, cillvy3;
 
-	for (cillvy1 = 0; cillvy1 < 8; cillvy++)
+	for (cillvy1 = 0; cillvy1 < 8; cillvy1++)
 	{
-		for (cillvy2 = cillvy1 + 1; cillvy2 < 9; cillvy++)
+		for (cillvy2 = cillvy1 + 1; cillvy2 < 9; cillvy2++)
 		{
-			for (cillvy3 = cillvy2 + 1; cillvy3 < 10; cillvy++)
+			for (cillvy3 = cillvy2 + 1; cillvy3 < 10; cillvy3++)
 			{
 				putchar((cillvy1 % 10) + '0');
 				putchar((cillvy2 % 10) + '0');
