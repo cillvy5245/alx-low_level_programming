@@ -13,7 +13,7 @@ int main(void)
 	for (joy = 0; joy < 10; joy++)
 		putchar((joy % 10) + '0');
 
-	for (cillvy = 'a'; cillvy <= 'f'; cillvy)
+	for (cillvy = 'c'; cillvy <= 'g'; cillvy++)
 		putchar(cillvy);
 
 	putchar('\n');
