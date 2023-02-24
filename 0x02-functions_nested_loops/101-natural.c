@@ -24,7 +24,7 @@ int main(void)
 		k++;
 	}
 
-	printf("%d\n", z);
+	printf("%d\n", c);
 
 	return (0);
 }
