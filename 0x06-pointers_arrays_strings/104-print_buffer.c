@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
-  * void print_buffer - a function that prints a buffer
-  *@*b: ......
+  * print_buffer - a function that prints a buffer
+  *@b: ......
   *@size: ........
   *
   *
@@ -37,10 +37,14 @@ void print_buffer(char *b, int size)
 			else
 				 printf(".");
 		}
-		 if (byte >= size)
-			   continue;
+
+		if (byte >= size)
+
+		continue;
+
 		 printf("\n");
 	}
+
 	if (size <= 0)
 		printf("\n");
 }
